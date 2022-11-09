@@ -1,0 +1,34 @@
+:root {
+    --main-cinza: #CCCCCC;
+    --main-branco: #FFFFFF;
+    --main-preto: #000000;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1600px) {
+    body { 
+        font-size: 14px;
+    }
+    main {
+        width: 90vw;
+        height: 80vh;
+        margin: 5vh auto;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    body { 
+        font-size: 13px;
+    }
+
+    main {
+        width: 96vw;
+        height: 80vh;
+        margin: 10vh auto;
+    }
+}
